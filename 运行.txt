@@ -1,0 +1,13 @@
+java -jar main.jar test\orig.txt test\orig_0.8_add.txt res.txt
+java -jar main.jar test\orig.txt test\orig_0.8_del.txt res.txt
+java -jar main.jar test\orig.txt test\orig_0.8_dis_1.txt res.txt
+java -jar main.jar test\orig.txt test\orig_0.8_dis_10.txt res.txt
+java -jar main.jar test\orig.txt test\orig_0.8_dis_15.txt res.txt
+
+
+java -jar main.jar test\orig.txt test\normal.txt res.txt
+java -jar main.jar test\orig.txt test\normal2.txt res.txt
+java -jar main.jar test\orig.txt test\normal3.txt res.txt
+java -jar main.jar test\orig.txt test\normal4.txt res.txt
+
+java -jar main.jar test\orig.txt test\orig.txt res.txt
